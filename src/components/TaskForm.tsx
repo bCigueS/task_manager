@@ -87,7 +87,7 @@ const AddTaskForm: React.FC = () => {
 	return (
 		<form className="task-form" onSubmit={submitHandler}>
 			<div className="task-form__title">
-				<label>Title*</label>
+				<label htmlFor="title">Title*</label>
 				<input
 					type="text"
 					name="title"
@@ -103,7 +103,7 @@ const AddTaskForm: React.FC = () => {
 				)}
 			</div>
 			<div className="task-form__description">
-				<label>Description*</label>
+				<label htmlFor="description">Description*</label>
 				<input
 					name="description"
 					id="description"

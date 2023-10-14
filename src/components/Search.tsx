@@ -26,8 +26,10 @@ const Search: React.FC<SearchProps> = ({ onSave }) => {
 	return (
 		<form className="search-wrapper" onSubmit={onSubmitHandler}>
 			<div className="search__title">
-				<label>Search</label>
+				<label htmlFor="search">Search</label>
 				<input
+					id="search"
+					name="search"
 					placeholder="Enter your search..."
 					autoComplete="off"
 					type="text"
