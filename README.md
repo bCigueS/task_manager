@@ -3,6 +3,9 @@
 ### Description
 Small app to allow user to add, delete and mark tasks as completed build in React.
 
+### Live Demo
+[Task Manager](https://bcigues.github.io/task_manager/)
+
 ### Technologie used
 -  React
 -  Sass
@@ -19,3 +22,4 @@ Small app to allow user to add, delete and mark tasks as completed build in Reac
 1. Clone the repo
 2. Install dependencies `npm install`
 3. Start development server `npm run dev`
+

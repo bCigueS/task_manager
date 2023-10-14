@@ -1,3 +1,4 @@
+@use '../abstracts/' as a;
 .search-wrapper {
 	display: flex;
 	flex-direction: column;
@@ -36,7 +37,7 @@
         display: flex;
         gap: 24px;
         &--elem {
-
+			color: a.$black;
             border: none;
             border-radius: 8px;
             background-color: white;
