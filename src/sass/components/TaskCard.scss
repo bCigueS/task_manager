@@ -1,0 +1,46 @@
+@use "../abstracts" as a;
+
+.task-card {
+	max-width: 300px;
+	height: 100%;
+	border-radius: 15px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+	background-color: white;
+	padding: 24px;
+
+
+	&__header {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: flex-start;
+		gap:10px;
+		&--title {
+			font-size: 18px;
+			font-weight: 800;
+			width: 60%;
+			overflow-wrap: break-word;
+		}
+		&--status {
+			font-weight: 300;
+		}
+	}
+
+	&__description {
+		margin: 14px 0;
+		font-size: 14px;
+		overflow-wrap: break-word;
+	}
+
+	&__footer {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+		border-top: 1px solid a.$black;
+		padding-top: 24px;
+	}
+}
