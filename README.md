@@ -7,6 +7,7 @@ Small app to allow user to add, delete and mark tasks as completed build in Reac
 [Task Manager](https://bcigues.github.io/task_manager/)
 
 ### Technologie used
+-  Nodejs (v16.15.0)
 -  React
 -  Sass
 -  Vite
